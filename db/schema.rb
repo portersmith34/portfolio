@@ -24,9 +24,9 @@ ActiveRecord::Schema.define(version: 20170620143445) do
 
   create_table "portfolios", force: :cascade do |t|
     t.string   "title"
-    t.string   "subfile"
+    t.string   "subtitle"
     t.text     "body"
-    t.text     "mail_image"
+    t.text     "main_image"
     t.text     "thumb_image"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
